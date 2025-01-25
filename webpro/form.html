@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form PPDB</title>
+    <link rel="shortcut icon" href="img/header-logo.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            align-self: center;
+            justify-content: center;
+            background-color: aliceblue;
+        }
+        form {
+            padding: 20px;
+            border-radius: 8px;
+            width: 1300px;
+        }
+        label {
+            font-size: 19px;
+        }
+        fieldset {
+            border: 2px solid #3689fe;
+            border-radius: 5px;
+            padding: 12px;
+            margin-left: 550px;
+        }
+        legend {
+            font-weight: bold;
+            color: #3689fe;
+        }
+        input[type="text"],
+        input[type="date"] {
+            width: 97%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        h4 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 40px; text-align: center;">Pendaftaran Murid SMA Plus PGRI CIBINONG</h1>
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend style="font-size: 25px;">Form Pendaftaran</legend>
+
+            <div class="nama">
+                <label for="text">Nama Lengkap :</label> <br>
+                <input style="font-size: 19px; margin-top: 5px;" type="text" placeholder="Nama">
+            </div>
+            
+            <div class="nik" style="margin-top: 10px">
+                <label for="text">NIK :</label> <br>
+                <input style="font-size: 19px; margin-top: 5px;" type="text" placeholder="NIK">
+            </div>
+
+            <div class="NISN" style="margin-top: 10px">
+                <label for="text">NISN :</label> <br>
+                <input style="font-size: 19px; margin-top: 5px;" type="text" placeholder="NISN">
+            </div>
+
+            <div class="alamat" style="margin-top: 10px">
+                <label for="text">Alamat :</label> <br>
+                <input style="font-size: 19px; margin-top: 5px;" type="text" placeholder="Alamat">
+            </div>
+            
+            <div style="margin-top: 10px">
+                <label for="text">Tanggal Lahir :</label> <br>
+                <input style="font-size: 19px; margin-top: 5px;" type="date">
+            </div>
+            
+            <div class="alamat" style="margin-top: 10px">
+                <label for="text">Tempat lahir :</label> <br>
+                <input style="font-size: 19px; margin-top: 5px;" type="text" placeholder="Tempat Lahir">
+            </div>
+
+            <div style="margin-top: 10px;">
+                <label for="text">Jenis Kelamin :</label> <br>
+                <input id="lk" type="radio" name="jenis_kelamin">
+                <label for="lk" style="margin-left: 4px;">Laki-Laki</label> <br>
+                <input id="pr" type="radio" name="jenis_kelamin">
+                <label for="pr" style="margin-left: 4px;">Perempuan</label>
+            </div>
+
+            <div style="margin-top: 1rem;">
+                <label for="text">Agama :</label> <br>
+                <input id="islam" type="radio" name="agama">
+                <label for="islam">Islam</label> <br>
+                <input id="kp" type="radio" name="agama">
+                <label for="kp">Kristen Protestan</label> <br>
+                <input id="kt" type="radio" name="agama">
+                <label for="kt">Katolik</label> <br>
+                <input id="hd" type="radio" name="agama">
+                <label for="hd">Hindu</label><br>
+                <input id="bd" type="radio" name="agama">
+                <label for="bd">Buddha</label><br>
+                <input id="kh" type="radio" name="agama">
+                <label for="kh">Khonghucu</label>
+            </div>
+
+            <div style="margin-top: 1rem;">
+                <input type="checkbox">
+                <label for="text">Dengan ini, Saya menyetujui peraturan di SMA Plus PGRI CIBINONG</label>
+            </div>
+
+            <div style="margin-top: 1rem">
+                <input type="submit" value="Kirim">
+            </div>
+
+            <div>
+                <h4>&copy; Defantyo Shabian Hadi 2024</h4>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
+<!--Dibuat Oleh Defantyo Shabian Hadi XP1-->

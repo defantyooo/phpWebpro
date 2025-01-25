@@ -1,0 +1,33 @@
+body {
+    background-color: #f9f9f9;
+    color: #6886C5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: -12px;
+}
+.head {
+    margin: 10px auto;
+    width: 99%;
+}
+
+#logo {
+    float: left;
+    width: 12%;
+    margin-right: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#title {
+    height: 135px;
+    margin: 10px auto -15px auto;
+    padding: 10 0 20 0;
+}

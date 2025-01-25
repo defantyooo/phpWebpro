@@ -1,0 +1,175 @@
+body {
+    font-size: 17px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #0099ff 6%, #9933ff 94%);
+    padding: 20px;
+}
+.danny {
+    margin-right: 50px;
+    margin-top: 120px;
+
+}
+.isi {
+    color:#161616;
+}
+.bio {
+    font-size: 18px; 
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+.biografi {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 2px;
+    color:#161616;
+}
+.judul {
+    font-size: 60px;
+    color:#f7f7f7;
+}
+.prestasi {
+    font-size: 30px;
+    margin-left: 30px;
+    color:#161616;
+}
+.sosial {
+    font-size: 30px;
+    margin-left: 30px;
+    color:#161616;
+}
+.sosialmedia {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 42, 42);
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+header, nav, main, footer {
+    display: block;
+    width: 100%;
+}
+
+.web {
+    margin: 10px auto;
+    width: 99%;
+}
+
+#logo {
+    float: left;
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#judul {
+    background: #424eff;
+    height: 135px;
+    margin: 10px auto -15px auto;
+    padding: 10px 0 20px 0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#judul h1 {
+    margin-top: 26px;
+    font-size: 30pt;
+    line-height: 38px;
+    font-weight: 500px;
+}
+#judul h2 {
+    margin-top: 10px;
+    font-size: 22pt;
+    font-weight: 300px;
+    color: #ffc0ff
+}
+
+/* Menu Navigasi */
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+    display: inline-table;
+    padding: 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5) inset;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+nav ul:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #7a82ea;
+    border-radius: 5px;
+}
+
+nav ul li:hover a {
+    color: #fbfbfb;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Hide SubMenu */
+nav ul ul{
+    display: none;
+    background: #afb3ff;
+    border-radius: 2px;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Memunculkan SubMenu */
+nav ul li:hover > ul {
+    display: block;
+    margin-top: 0px;
+}
+
+nav ul ul li{
+    float: none;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 10px 20px;
+    color:#4b4dcb;
+}
+
+nav ul ul li a:hover {
+    background: #545be5;
+}
+
+/* Solusi Submenu */
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
